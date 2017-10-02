@@ -1,0 +1,21 @@
+<hr>
+<nav class="nav nav-light bg-light justify-content-between">
+ 
+    <ul class="nav justify-content-center">
+        <a class="navbar-brand" routerLink="/"> Contatos</a>
+        <a  class="nav-link " routerLink="/"> Home <span class="sr-only">(current)</span></a>
+         <a  class="nav-link" routerLink="/contato/save"> Novo</a>
+    </ul>
+
+   <form class="form-inline float-xs-right">
+        <input type="text" class="form-control " placeholder="Search"
+        name="busca"
+        [(ngModel)]="termo"
+        >
+        
+    </form>
+    
+</nav>
+<hr>
+<router-outlet></router-outlet>
+<contato-busca [(busca)]="termo" ></contato-busca>
