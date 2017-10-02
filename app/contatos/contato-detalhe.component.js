@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@angular/core");
 const router_1 = require("@angular/router");
 const common_1 = require("@angular/common");
@@ -75,9 +76,8 @@ ContatoDetalheComponent = __decorate([
     
     `]
     }),
-    __metadata("design:paramtypes", [contato_service_1.ContatoService,
-        router_1.ActivatedRoute,
-        common_1.Location])
+    __metadata("design:paramtypes", [contato_service_1.ContatoService, typeof (_a = typeof router_1.ActivatedRoute !== "undefined" && router_1.ActivatedRoute) === "function" && _a || Object, typeof (_b = typeof common_1.Location !== "undefined" && common_1.Location) === "function" && _b || Object])
 ], ContatoDetalheComponent);
 exports.ContatoDetalheComponent = ContatoDetalheComponent;
+var _a, _b;
 //# sourceMappingURL=contato-detalhe.component.js.map

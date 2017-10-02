@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.CONTATOS = [
     { id: 1, nome: 'Fulano de tal', email: 'fulano@email.com', telefone: "(00)0000-0000" },
     { id: 2, nome: 'ciclano', email: 'ciclano@email.com', telefone: "(00)0000-0000" },

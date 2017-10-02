@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@angular/core");
 const router_1 = require("@angular/router");
 const Observable_1 = require("rxjs/Observable");
@@ -50,7 +51,7 @@ __decorate([
 ], ContatoBuscaComponent.prototype, "busca", void 0);
 __decorate([
     core_1.Output(),
-    __metadata("design:type", core_1.EventEmitter)
+    __metadata("design:type", typeof (_a = typeof core_1.EventEmitter !== "undefined" && core_1.EventEmitter) === "function" && _a || Object)
 ], ContatoBuscaComponent.prototype, "buscaChange", void 0);
 ContatoBuscaComponent = __decorate([
     core_1.Component({
@@ -63,8 +64,8 @@ ContatoBuscaComponent = __decorate([
          }    
     `]
     }),
-    __metadata("design:paramtypes", [contato_service_1.ContatoService,
-        router_1.Router])
+    __metadata("design:paramtypes", [contato_service_1.ContatoService, typeof (_b = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _b || Object])
 ], ContatoBuscaComponent);
 exports.ContatoBuscaComponent = ContatoBuscaComponent;
+var _a, _b;
 //# sourceMappingURL=contato-busca.component.js.map
